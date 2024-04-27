@@ -28,6 +28,3 @@
 - [TechCrunch](https://techcrunch.com)
 - [Hacker Noon](https://hackernoon.com)
 - [Towards Data Science](https://towardsdatascience.com)
-- [Smashing Magazine](https://www.smashingmagazine.com)
-- [SitePoint](https://www.sitepoint.com)
-- [SD Times](https://sdtimes.com)
