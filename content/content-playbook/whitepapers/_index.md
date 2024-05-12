@@ -1,7 +1,7 @@
 ---
-title: Blog posts
+title: Whitepapers
 type: docs
-weight: 2
+weight: 3
 sidebar:
   open: true
 ---
