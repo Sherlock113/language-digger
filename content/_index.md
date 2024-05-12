@@ -3,15 +3,11 @@ title: My Site
 toc: false
 ---
 
-This is the landing page.
+Hi, this website is still in development.
 
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
+  {{< card link="content-playbook" title="The Ultimate Content Playbook" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).

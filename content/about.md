@@ -1,6 +1,6 @@
 ---
-title: About
+title: About me
 type: about
 ---
 
-This is the about page.
+Hi, I am Sherlock. Here is my [GitHub account](https://github.com/Sherlock113).
