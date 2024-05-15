@@ -1,7 +1,7 @@
 ---
 title: Blog posts
 type: docs
-weight: 2
+weight: 3
 sidebar:
   open: true
 ---
