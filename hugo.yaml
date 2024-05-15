@@ -18,6 +18,9 @@ params:
     enable: true
     base: "https://github.com/Sherlock113/the-ultimate-content-playbook/edit/main/content"
 defaultContentLanguage: en
+services:
+  googleAnalytics:
+    ID: G-R1154L2F1Q
 languages:
   en:
     languageName: English
