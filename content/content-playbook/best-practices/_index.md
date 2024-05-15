@@ -1,7 +1,7 @@
 ---
-title: Documentation
+title: Best practices
 type: docs
-weight: 2
+weight: 8
 sidebar:
   open: true
 ---
