@@ -1,8 +1,3 @@
----
-title: Challenges
-type: docs
----
-
 New technology can happen like a daily occurrence and the demand for skilled technical writers has never been higher. These professionals are crucial in bridging the gap between complex technological information and the audiences that need this information to use products effectively. However, becoming a technical writer is not without its challenges. From mastering a wide range of skills to keeping up with technology, here are some of the hurdles that aspiring technical writers often face.
 
 ## Technical expertise

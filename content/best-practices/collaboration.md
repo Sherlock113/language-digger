@@ -1,8 +1,3 @@
----
-title: Collaboration
-type: docs
----
-
 As a technical writer, collaboration with colleagues is an indispensable part of the job. For instance, from the perspective of the documentation itself, colleagues such as developers or product managers provide the essential material for technical writers. From the perspective of external outputs, technical writers can contribute beyond language to testing, design, and other areas.
 
 A closer examination reveals that technical writers have some level of collaboration with most colleagues along the product line, some of which are even closely collaborative. In this article, I will draw on my experience in producing documentation for both open-source and proprietary products to explore the "friend circle" of IT technical writers, detailing possible collaborative relationships they may have at work. It is important to note that due to different organizational structures, processes, and cultures, my experiences may not directly apply to your company but hopefully, they will be helpful.
