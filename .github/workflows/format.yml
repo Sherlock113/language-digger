@@ -13,6 +13,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Use Node.js
       uses: actions/setup-node@v2
@@ -20,13 +21,20 @@ jobs:
         node-version: '14'
 
     - name: Install dependencies
-      run: npm install prettier
+      run: npm ci
 
     - name: Run Prettier
       run: npx prettier --write "**/*.{html,js,css}"
 
     - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff-index --quiet HEAD || (git commit -a -m "Apply formatting changes" --allow-empty)
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
-        commit_message: Apply formatting changes
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.head_ref }}
