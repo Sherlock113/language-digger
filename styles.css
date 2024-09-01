@@ -339,3 +339,10 @@ ul li {
   margin-bottom: 5px;
   line-height: 1.6;
 }
+
+.breadcrumb {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #6c757d;
+  }

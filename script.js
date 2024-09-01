@@ -1,19 +1,44 @@
-// Function to load and render Markdown content
-function loadMarkdown(file) {
-  fetch(`content/${file}`)
-    .then(response => response.text())
-    .then(text => {
-      const contentElement = document.getElementById('book-content');
-      contentElement.innerHTML = marked.parse(text);
-      updateTableOfContents();
-      highlightCurrentSection(file);
-    })
-    .catch(error => {
-      console.error('Error loading markdown:', error);
-      document.getElementById('book-content').innerHTML =
-        '<p>Sorry, the content could not be loaded.</p>';
-    });
-}
+// Function to extract title from markdown content
+function extractTitle(content) {
+    const match = content.match(/^# (.+)$/m);
+    return match ? match[1] : 'Untitled';
+  }
+  
+  // Function to create breadcrumb HTML
+  function createBreadcrumb(file, title) {
+    const parts = file.replace('.md', '').split('/');
+    let html = '<nav class="breadcrumb">';
+    
+    // Always start with "Introduction"
+    html += 'Introduction';
+    
+    if (parts.length > 1) {
+      html += ' &gt; ' + title;
+    }
+  
+    html += '</nav>';
+    return html;
+  }
+  
+  // Modify the loadMarkdown function to insert breadcrumb
+  function loadMarkdown(file) {
+    fetch(`content/${file}`)
+      .then(response => response.text())
+      .then(text => {
+        const contentElement = document.getElementById('book-content');
+        const title = extractTitle(text);
+        const breadcrumb = createBreadcrumb(file, title);
+        const parsedContent = marked.parse(text);
+        contentElement.innerHTML = breadcrumb + parsedContent;
+        updateTableOfContents();
+        highlightCurrentSection(file);
+      })
+      .catch(error => {
+        console.error('Error loading markdown:', error);
+        document.getElementById('book-content').innerHTML =
+          '<p>Sorry, the content could not be loaded.</p>';
+      });
+  }
 
 // Function to update the table of contents
 function updateTableOfContents() {
