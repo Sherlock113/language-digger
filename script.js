@@ -20,7 +20,7 @@ function createBreadcrumb(file, title) {
   return html;
 }
 
-// Modify the loadMarkdown function to insert breadcrumb
+// Function to load Markdown
 function loadMarkdown(file) {
   fetch(`content/${file}`)
     .then(response => response.text())
@@ -100,7 +100,7 @@ document.querySelectorAll('.sidebar ul li a').forEach(link => {
   });
 });
 
-// Implement search functionality
+// Implement basic search functionality
 document.getElementById('search').addEventListener('input', function (e) {
   const query = e.target.value.toLowerCase();
   const contentElement = document.getElementById('book-content');
