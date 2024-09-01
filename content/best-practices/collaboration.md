@@ -19,7 +19,7 @@ Conduct short meetings with developers, not exceeding half an hour, record the s
 
 The practice in international companies is to first finalize the product UI's English copy and then package the language files to be handed over to internal technical writers (or localisation teams) or external vendors for translation into other languages. This section will also discuss the collaboration between technical writers and localisation engineers.
 
-## Test Engineers
+## Test engineers
 
 Test engineers are responsible for testing the product, identifying defects, and discussing solutions with development colleagues. technical writers and test engineers may collaborate in the following ways:
 
@@ -31,11 +31,11 @@ Test engineers sometimes test against your draft documentation, and some might p
 
 For technical writers, it is crucial to physically go through the entire process when writing operation step-type documents, effectively testing the product.
 
-## Customer Support Engineers
+## Customer support engineers
 
 Customer support engineers, having interfaced with customers over long periods, accumulate extensive firsthand experience with the product, including pain points and difficulties in usage. These issues, after being compiled and organized, can directly supplement the product documentation, be converted into best practice manuals (not necessarily included in the product documentation, possibly as a separate manual), or even become blog posts and case studies. As a technical writer, you should regularly hold synchronization meetings with customer support engineers and convert their summary content into subsequent documents.
 
-## Agile Coaches
+## Agile coaches
 
 Agile coaches (also known as Scrum Masters) introduce some management practices from agile development, creating Sprint plans according to the team and product to help enhance the development team's efficiency while ensuring smooth collaboration within and possibly between teams.
 
@@ -56,7 +56,7 @@ It's important to note that whether it's the research conducted by product manag
 
 In addition to the above points, if you find the product's process or operation too cumbersome while writing the documentation, making it difficult to describe certain operations, you should boldly report the issue to the product manager. Products are made to help users solve real problems, and if the operations in the documentation are too troublesome, it's hard to imagine it being a good product.
 
-## Product Marketing Managers
+## Product marketing managers
 
 The work of product marketing managers might include planning the marketing content for the product's official website, market analysis, product events (in some companies, this is managed by product operations managers), marketing content and planning, etc. You can understand this as mainly involving work related to product marketing.
 
@@ -66,7 +66,7 @@ My previous experience collaborating with foreign product marketing managers was
 
 One tricky point is that some product marketing managers might repeatedly weigh the suitability of the product name from a marketing perspective, even changing the product name at the last minute. This would require extensive modifications to the documentation (sometimes including screenshots), and anyone who has written documentation knows that global search and replace is not applicable in all situations. I have some trauma from this, so I was very reluctant to collaborate with product marketing managers.
 
-## Product Trainers
+## Product trainers
 
 Product trainers conduct on-site user training or record corresponding video tutorials, and their training materials often come from product documentation. If your documentation is clear enough, they generally won't contact you, and if there are issues, they might directly ask developers and product managers.
 
@@ -81,7 +81,7 @@ Designers related to the work of technical writers mainly include product UI des
 
 A side note, if it's commercial documentation, please be sure to be careful with the fonts used in the documents (it's best if your company has its own developed fonts); otherwise, it might cause legal issues. A long time ago, Microsoft once sent a legal letter to another company that used one of its fonts commercially. You should remind your company's frontend and designer colleagues about this
 
-## Localisation Engineers/External Vendors
+## Localisation engineers/Vendors
 
 The main work of localisation engineers is to localize product documentation or UI. In cases where there is a shortage of personnel, technical writers might take on this role themselves. If there is a dedicated localisation team, their collaboration with technical writers might include:
 
@@ -91,7 +91,7 @@ They might report errors found in the original text to you. If there are many er
 
 If localisation work is done by an external vendor, technical writers might need to participate in reviewing the localized content (whether documents or UI copy), paying special attention to accuracy and consistency. Without access to the relevant environments (and possibly lacking sufficient background knowledge of the product), external vendors' grasp of content translation is often inaccurate. The most common errors occur in UI consistency, i.e., their translation of a UI copy is one thing, but the actual UI translation of the product is another. Some might suggest providing a related vocabulary table to the vendor, which indeed is a practice, but the actual situation is that UI copy often changes frequently, making it difficult to ensure consistency. As a result, you might see inconsistencies in the textual description, UI screenshots, and the actual UI of the product in the documentation.
 
-## Open Source Community Manager && Developer Advocate
+## Open source community managers && Developer advocates
 
 For open-source projects, the open source community manager will formulate the community's operational plan, promote community growth, organize various activities, foster a cooperative ecosystem, and maintain developer relationships, among which an important part is coordinating the output of open-source content. The collaboration between technical writers and open source community managers might include:
 
