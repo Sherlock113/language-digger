@@ -9,7 +9,7 @@ function createBreadcrumb(file, title) {
   const parts = file.replace('.md', '').split('/');
   let html = '<nav class="breadcrumb">';
 
-  // Always start with "Introduction"
+  // Always start with "Introduction" for now; to be fixed.
   html += 'Introduction';
 
   if (parts.length > 1) {
