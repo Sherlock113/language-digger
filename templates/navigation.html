@@ -1,0 +1,28 @@
+<section id="navigation" class="border-bottom">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+            <a href="/"
+               class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="bi me-2">
+
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+
+                    <path d="M10 12l4 3m-4-3l4-3"/>
+                </svg>
+                <span class="fs-4">Language Digger</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link"
+                                        aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="{{ url_for('show_book') }}" class="nav-link">Playbook</a></li>
+                <li class="nav-item"><a href="{{ url_for('show_blog') }}" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="{{ url_for('show_gallery') }}" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="{{ url_for('show_about') }}" class="nav-link">About</a></li>
+            </ul>
+        </header>
+    </div>
+</section>
