@@ -1,7 +1,7 @@
 ---
 title: "Collaboration"
 date: "December 1, 2024"
-id: 8
+id: 71
 ---
 
 As a technical writer, collaboration with colleagues is an indispensable part of the job. For instance, from the perspective of the documentation itself, colleagues such as developers or product managers provide the essential material for technical writers. From the perspective of external outputs, technical writers can contribute beyond language to testing, design, and other areas.

@@ -1,7 +1,7 @@
 ---
 title: "Who should read this playbook"
 date: "December 1, 2024"
-id: 2
+id: 3
 ---
 
 This playbook is designed for anyone involved in the creation, management, or distribution of technical content, particularly in the software industry. Whether you’re a seasoned technical writer, a software developer looking to improve your documentation skills, a product manager overseeing content strategy, or a marketer aiming to enhance lead generation through content, this guide is for you.

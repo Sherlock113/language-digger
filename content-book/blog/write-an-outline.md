@@ -1,7 +1,7 @@
 ---
 title: "Write an outline"
 date: "December 1, 2024"
-id: 5
+id: 21
 ---
 
 Creating a well-structured outline is the first step towards writing an effective blog post. A strong outline not only organizes your thoughts but also ensures that your content flows logically, keeping your readers engaged from start to finish. This page will guide you through the process of crafting a compelling outline that will serve as the foundation for your blog post.

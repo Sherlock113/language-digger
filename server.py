@@ -3,6 +3,9 @@ from datetime import datetime
 import frontmatter
 import markdown
 import os
+from markdown.treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+import xml.etree.ElementTree as etree
 from flask_bootstrap import Bootstrap5
 from pathlib import Path
 
@@ -13,6 +16,31 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 bootstrap = Bootstrap5(app)
 
+
+class ImgCaptionTreeprocessor(Treeprocessor):
+    def run(self, root):
+        figures = []  # Keep track of figures to add
+        for img in root.findall('.//img'):
+            if img.get('alt'):
+                # Create figure and figcaption
+                figure = etree.Element('figure')
+                figcaption = etree.SubElement(figure, 'figcaption')
+                figcaption.text = img.get('alt')
+                
+                # Move img into figure
+                figure.insert(0, img)  # Insert img before figcaption
+                
+                # Find parent
+                for parent in root.iter():
+                    if img in parent:
+                        parent_index = list(parent).index(img)
+                        parent.remove(img)  # Remove original img
+                        parent.insert(parent_index, figure)  # Insert figure at same position
+                        break
+
+class ImgCaptionExtension(Extension):
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(ImgCaptionTreeprocessor(md), 'imgcaption', 7)
 
 def get_sidebar_structure():
     """Load markdown files and dynamically created a sidebar."""
@@ -82,7 +110,9 @@ def show_book_page(chapter, page):
                                 extensions=['fenced_code', 'tables', 'codehilite', 'markdown.extensions.nl2br',
                                             'markdown.extensions.sane_lists',
                                             'md_in_html',
-                                            'markdown.extensions.extra'])
+                                            'markdown.extensions.extra',
+                                            ImgCaptionExtension()
+                                            ])
 
     # Get structure for sidebar
     structure = []
@@ -179,7 +209,8 @@ def show_post(post_name):
         'markdown.extensions.nl2br',
         'markdown.extensions.sane_lists',
         'md_in_html',
-        'markdown.extensions.extra'
+        'markdown.extensions.extra',
+        ImgCaptionExtension()
     ], extension_configs={
         'codehilite': {
             'css_class': 'highlight',

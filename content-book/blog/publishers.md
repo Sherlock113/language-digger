@@ -1,7 +1,7 @@
 ---
 title: "Submit blog posts"
 date: "December 1, 2024"
-id: 6
+id: 22
 ---
 
 Sharing knowledge through blogging is not just about personal expression; it's a strategic move for career development, community building, and personal branding. For developers, technical bloggers, and IT professionals, choosing the right platform to publish your content can greatly influence the reach and impact of your articles. I list some of the most popular platforms below for submitting technical blog posts.
