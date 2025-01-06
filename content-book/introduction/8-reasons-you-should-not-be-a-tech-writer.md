@@ -76,7 +76,7 @@ It's impossible to ignore the growing influence of AI in almost every field. Tec
 
 At first glance, the idea seems compelling. Feed a prompt into an AI model, and within seconds, you get a fully formed document. While it may not be perfect, it's much faster than a human writer. This efficiency puts human technical writers in direct competition with technology that only seems to improve by the day. Over the past two years, many companies have downsized or eliminated technical writing positions.
 
-![Figure 1. Information Design & Documentation - Indeed Job Postings Index](../../static/assets/images/introduction/tech-writing-indeed-job-postings-index.png)
+![Figure 1.2 Information Design & Documentation - Indeed Job Postings Index](../../static/assets/images/introduction/tech-writing-indeed-job-postings-index.png)
 
 So, why do you want to continue dedicating your time and energy to a profession that seems increasingly vulnerable to automation? 
 
@@ -101,7 +101,8 @@ You might wonder: *Why is revision such a big deal? Isn't it just about making c
 - Someone suddenly appears with extensive feedback just when you thought the document was final
 - Multiple experts provide conflicting feedback, leaving you to referee debates
 - Last-minute reviewers frequently request major structural changes after multiple approval rounds
-- Confident reviewers question your writing style while introducing errors into your carefully crafted documents
+- Confident reviewers question your writing style while introducing errors into your carefully crafted document
+- Careless reviewers insist you've missed crucial information that's actually clearly stated in your document
 - Well-meaning stakeholders suggest changes that would actually make the documentation less clear, not more
 - Your document goes through an exhausting marathon of **20 or 30 rounds of revisions** by dozens of people, with each round bringing new perspectives and challenges
 
