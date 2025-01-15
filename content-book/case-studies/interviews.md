@@ -51,7 +51,7 @@ I list some sample questions for different sections of a typical case study. Use
 2. How were these challenges affecting your day-to-day work or organisational goals?
 3. What were the costs (time, resources, opportunities) associated with these challenges?
 4. How were you trying to solve these problems previously?
-5. Why didn’t the previous solutions work?
+5. Why didn't the previous solutions work?
 
 ### Decision process
 
