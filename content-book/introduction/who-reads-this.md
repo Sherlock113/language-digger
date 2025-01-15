@@ -16,7 +16,7 @@ Depending on your role, this playbook will help you in different ways.
 - Enhance your collaboration with different stakeholders within your organisation
 - Measure and demonstrate the impact of your technical content
 
-### Developer advocates
+## Developer advocates
 
 - Techniques for creating engaging technical tutorials and guides
 - Content strategies for building and nurturing developer communities
