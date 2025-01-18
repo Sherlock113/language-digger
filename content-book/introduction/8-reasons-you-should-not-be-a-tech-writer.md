@@ -1,7 +1,7 @@
 ---
 title: "8 reasons you shouldn't be a technical writer"
 date: "December 1, 2024"
-id: 2
+id: 4
 ---
 
 Yes, you're reading this correctly.
