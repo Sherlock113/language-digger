@@ -10,21 +10,17 @@ Depending on your role, this playbook will help you in different ways.
 
 ## Technical writers
 
+If you're a professional technical write, this playbook will help you:
+
 - Develop more effective content strategies aligned with user needs
 - Improve your content architecture and information design
-- Learn best practices for content and developer experience
+- Learn best practices for content creation and developer experience
 - Enhance your collaboration with different stakeholders within your organisation
 - Measure and demonstrate the impact of your technical content
 
-## Developer advocates
-
-- Techniques for creating engaging technical tutorials and guides
-- Content strategies for building and nurturing developer communities
-- Methods for gathering and incorporating developer feedback
-- Tips for creating sample code and reference implementations
-- Ways to balance technical accuracy with accessibility
-
 ## Content marketing managers
+
+For those focused on technical content marketing, this playbook offers:
 
 - Techniques for creating technical content that drives user acquisition
 - Strategies for balancing marketing goals with technical depth
@@ -33,12 +29,16 @@ Depending on your role, this playbook will help you in different ways.
 
 ## Product managers
 
+Product managers can use this playbook to:
+
 - Understand the role of technical content in product success
 - Integrate documentation into the product development cycle
-- Strategies for creating content in product definition documents or product requirement documents
+- Create content in product definition documents or product requirement documents
 - Methods for gathering user feedback through documentation
 
 ## Startup founders
+
+If you're building a technical product or developer tool, this playbook will help you:
 
 - Establish a strong technical content foundation
 - Create documentation that scales with your product
@@ -48,20 +48,26 @@ Depending on your role, this playbook will help you in different ways.
 
 ## Open-source contributors
 
+For those working on open-source projects, you can learn:
+
 - Best practices for community content
 - Techniques for encouraging content contributions
-- Methods for organizing collaborative content efforts
+- Methods for organising collaborative content efforts
 - Ways to make your project more approachable to new contributors
 
 ## Educators and trainers
 
-- Structure technical learning materials effectively
-- Create clear and engaging technical tutorials
-- Develop practical exercises and examples
-- Build assessment and feedback mechanisms
-- Adapt content for different learning styles, especially for people from non-technical backgrounds
+Technical educators will find value in:
+
+- Structuring technical learning materials effectively
+- Creating clear and engaging technical tutorials
+- Developing practical exercises and examples
+- Building assessment and feedback mechanisms
+- Adapting content for different learning styles, especially for people from non-technical backgrounds
 
 ## Students
+
+If you're looking to enter the field of technical communication, this playbook provides:
 
 - Foundational concepts and industry best practices
 - Practical exercises to build your skills
