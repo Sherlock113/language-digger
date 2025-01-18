@@ -10,7 +10,7 @@ Depending on your role, this playbook will help you in different ways.
 
 ## Technical writers
 
-If you're a professional technical write, this playbook will help you:
+If you're a professional technical writer, this playbook will help you:
 
 - Develop more effective content strategies aligned with user needs
 - Improve your content architecture and information design
