@@ -107,4 +107,10 @@ The work doesn’t end when the interview is over. Follow these steps to start w
     - Verify metrics and numbers with the customer
     - Get approval for any direct quotes you plan to use
 
+<div class="alert alert-tip">
+<div class="alert-title">
+<img src="../../static/assets/icons/tip.svg" alt="Tip icon">
+Tip
+</div>
 Each interview is unique. You should adapt your approach based on the customer, their story, and the information you need to gather.
+</div>

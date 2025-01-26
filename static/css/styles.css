@@ -243,3 +243,66 @@ figcaption {
   margin-top: 0.5rem;
   text-align: center;
 }
+
+/* Alert Components */
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+}
+
+.alert-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.alert-title img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Note - Blue */
+.alert-note {
+  background-color: #e7f2fd;
+  border-color: #2196f3;
+}
+
+.alert-note .alert-title {
+  color: #0d47a1;
+}
+
+/* Tip - Green */
+.alert-tip {
+  background-color: #e8f5e9;
+  border-color: #4caf50;
+}
+
+.alert-tip .alert-title {
+  color: #1b5e20;
+}
+
+/* Important - Orange */
+.alert-important {
+  background-color: #fff3e0;
+  border-color: #ff9800;
+}
+
+.alert-important .alert-title {
+  color: #e65100;
+}
+
+/* Warning - Red */
+.alert-warning {
+  background-color: #ffebee;
+  border-color: #f44336;
+}
+
+.alert-warning .alert-title {
+  color: #b71c1c;
+}

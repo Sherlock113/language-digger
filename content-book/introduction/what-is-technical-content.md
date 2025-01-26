@@ -20,13 +20,15 @@ For example, the documentation for a developer-facing tool might guide users thr
 1. **Introduction**: A high-level summary of the product and its purpose.
 2. **Setup and installation**: Step-by-step instructions to set up the tool.
 3. **Usage and features**: Detailed explanations of functionalities and use cases.
-4. **Configuration and customization**: Guidance on adapting the product to specific needs.
-5. **Best practices and troubleshooting**: Advice to optimize usage and resolve common issues.
+4. **Configuration and customisation**: Guidance on adapting the product to specific needs.
+5. **Best practices and troubleshooting**: Advice to optimise usage and resolve common issues.
 6. **Reference**: Comprehensive details like UI properties, API documentation, command-line options, configuration parameters, and other specifications that users can quickly look up.
 
 ## Types of technical content
 
 Although traditional documentation is a cornerstone of technical content, it extends to various other formats to meet user needs:
+
+![Figure 1.1 Different Types of Technical Content](../../static/assets/images/introduction/different-types-of-tech-content.png)
 
 - Blog Posts
 - Social Posts
@@ -35,8 +37,6 @@ Although traditional documentation is a cornerstone of technical content, it ext
 - Case Studies/Customer Success Stories
 - Videos
 - Podcasts
-
-![Figure 1.1 Different Types of Technical Content](../../static/assets/images/introduction/different-types-of-tech-content.png)
 
 ## The technical content process
 

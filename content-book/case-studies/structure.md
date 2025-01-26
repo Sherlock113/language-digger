@@ -40,7 +40,7 @@ Example elements:
 
 ### Decision process
 
-Explain how the customer discovered and evaluated your product as a solution. Emphasize what stood out about your offering and why they chose it over others.
+Explain how the customer discovered and evaluated your product as a solution. Emphasise what stood out about your offering and why they chose it over others.
 
 Example elements:
 
@@ -51,7 +51,7 @@ Example elements:
 
 ### Implementation/Migration
 
-Summarize how the customer implemented or transitioned to your product. Focus on the story of adoption rather than technical minutiae.
+Summarise how the customer implemented or transitioned to your product. Focus on the story of adoption rather than technical minutiae.
 
 Example elements:
 
@@ -72,16 +72,16 @@ Showcase the tangible benefits your product provided. Back up your claims with s
 
 Example elements:
 
-- Metrics such as time saved, costs reduced, revenue increased, or headcount optimized
+- Metrics such as time saved, costs reduced, revenue increased, or headcount optimised
 - Make key metrics **bold** for emphasis
 - One or two sentences connecting the results to your product's features or offerings
-- Customer quotes that emphasize the value they gained
+- Customer quotes that emphasise the value they gained
 
 Things to notice:
 
 - A common practice is placing this section at the beginning of the case study for grabbing attention.
 - If the customer does not know how to provide metrics, give them specific examples like this: "Deployment time reduced from **48 hours to 30 minutes**, resulting in a **90% increase** in release frequency.” Try to calculate the numbers yourself first and then ask for their permission to use the metrics.
-- Some customers are reluctant to give you any numbers. My suggestion is you should prioritize writing case studies for those who can provide concrete metrics for maximum impact.
+- Some customers are reluctant to give you any numbers. My suggestion is you should prioritise writing case studies for those who can provide concrete metrics for maximum impact.
 
 ### Looking forward
 
@@ -90,7 +90,7 @@ Highlight the ongoing partnership between your company and the customer. Mention
 Example elements:
 
 - Long-term benefits the customer anticipates
-- Expansion of usage within the customer’s organization
+- Expansion of usage within the customer’s organisation
 - Upcoming projects or collaborations
 - A quote expressing satisfaction and enthusiasm for the partnership
 
@@ -101,10 +101,18 @@ Customer quotes add authenticity and human interest to your story. Use them stra
 Tips for using quotes:
 
 - Attribute each quote with the speaker's name and position
-- Choose quotes that emphasize key points and decisions
+- Choose quotes that emphasise key points and decisions
 - Include diverse perspectives from stakeholders, such as CEOs, Engineering Leaders, Product Managers, and Engineers
 - Ensure the quotes align with the speaker’s role. For example, a C-level executive usually don’t talk about technical details
 - When two quotes overlap, choose the one from a higher-ranking individual for greater impact
+
+<div class="alert alert-warning">
+<div class="alert-title">
+<img src="../../static/assets/icons/warning.svg" alt="Warning icon">
+Warning
+</div>
+Never use any quotes that have not been explicitly approved by the customer.
+</div>
 
 ---
 

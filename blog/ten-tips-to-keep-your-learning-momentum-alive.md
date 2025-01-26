@@ -21,7 +21,7 @@ There’s no need to jump into the deep end on day one. Break your learning jour
 
 ## 4. Create visible achievements
 
-Find tangible ways to mark your progress. This could mean earning a certification, posting a project online, or even just solving a tough problem. These benchmarks give you something to point to and say “I did it.” Each accomplishment boosts your sense of achievement and encourages you to push further.
+Find tangible ways to mark your progress. This could mean earning a certification, posting a project online, or even just solving a tough problem. These benchmarks give you something to point to and say “I did it”. Each accomplishment boosts your sense of achievement and encourages you to push further.
 
 ## 5. Share your journey
 
@@ -37,11 +37,11 @@ When it's learning time, make it count. Even one hour of focused learning each d
 
 ## 8. Redefine "free time"
 
-It’s common to feel like there aren’t enough hours in the day, but consider how you’re really using your free moments. Maybe you can repurpose half an hour of scrolling through social media into reading an article or practicing a new exercise. Look closely at your day. You might find more learning opportunities than you think.
+It’s common to feel like there aren’t enough hours in the day, but consider how you’re really using your free moments. Maybe you can repurpose half an hour of scrolling through social media into reading an article or practising a new exercise. Look closely at your day. You might find more learning opportunities than you think.
 
 ## 9. Ignore naysayers
 
-Let them talk. Remember – those who judge you will always find something to criticize, regardless of what you do. Their opinions shouldn’t dictate how you invest in yourself. Keep reminders of why you started. Maybe it’s a personal story, a rejection letter that drives you, or a future goal that excites you. When you trust your own path, criticism becomes background noise.
+Let them talk. Remember – those who judge you will always find something to criticise, regardless of what you do. Their opinions shouldn’t dictate how you invest in yourself. Keep reminders of why you started. Maybe it’s a personal story, a rejection letter that drives you, or a future goal that excites you. When you trust your own path, criticism becomes background noise.
 
 ## 10. Trust in future returns
 

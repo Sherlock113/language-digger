@@ -10,7 +10,13 @@ Over my career as a technical writer, I've read countless articles about why you
 
 You might be asking, “Why would I want to read reasons not to pursue this career in the first chapter of the book?” Simple: I believe you deserve to know the unvarnished truth before committing to this path. When I started, no one sat me down and had this conversation. I learned these lessons the hard way, through what I can only describe as a tortuous path of trial and error, frustration, and eventual adaptation.
 
-This isn't meant to discourage you. Rather, I want you to fully understand what you're signing up for. So here's the thing — if after reading these points, you still find yourself thinking, "I can handle that", or better yet, "That actually sounds interesting", you're likely to not just survive, but thrive as a technical writer.
+<div class="alert alert-important">
+<div class="alert-title">
+<img src="../../static/assets/icons/important.svg" alt="Important icon">
+Important
+</div>
+This section isn't meant to discourage you. Rather, I want you to fully understand what you're signing up for. If after reading these points, you find yourself thinking, "I can handle that", or better yet, "That actually sounds interesting", you're likely to not just survive, but thrive as a technical writer.
+</div>
 
 ---
 
@@ -36,7 +42,7 @@ Picture this: It's 11:45 PM on a Thursday. The product launches tomorrow at 9 AM
 
 Welcome to the life of a technical writer, where you're simultaneously essential and invisible.
 
-In some companies, documentation is often treated like a last-minute afterthought. It is squeezed into the narrow gap between product completion and release deadlines. Some may argue that this makes logical sense. After all, you can't document features that aren't finalized. But what this means for you, as a technical writer, is that you're often the **last** to be considered and the **last** to get the information you need. As a result, you'll frequently find yourself working under tight deadlines.
+In some companies, documentation is often treated like a last-minute afterthought. It is squeezed into the narrow gap between product completion and release deadlines. Some may argue that this makes logical sense. After all, you can't document features that aren't finalised. But what this means for you, as a technical writer, is that you're often the **last** to be considered and the **last** to get the information you need. As a result, you'll frequently find yourself working under tight deadlines.
 
 This can lead to a deep sense of isolation. **No one** outside of the technical writing team truly understands what you do. To your colleagues, such as engineers and product managers, you're just the person who “polishes” the drafts they provide, making sure everything looks good. They'll often view your role as more about editing and formatting than creating valuable content from scratch.
 
@@ -49,7 +55,7 @@ The reality is both ironic and frustrating:
 - You need input from subject matter experts who are always "too busy"
 - Your role is essential for user success, yet often undervalued by the team
 
-Let me share an example from my own experience. I once wrote a document that needed a developer's review. Despite repeated follow-ups, **six months** passed without a response. Finally, in the seventh month, the developer left the company. When I contacted him later, he didn't even recognize my name or know what I did. This might be rare, but it did happen.
+Let me share an example from my own experience. I once wrote a document that needed a developer's review. Despite repeated follow-ups, **six months** passed without a response. Finally, in the seventh month, the developer left the company. When I contacted him later, he didn't even recognise my name or know what I did. This might be rare, but it did happen.
 
 Even outside of work, explaining your profession becomes an exercise in patience. "*What exactly do you do at work?*" people ask, with their eyes already glazing over. After explaining it a few times, you'll likely realize that it's easier to just say, *“I write manuals,”* and leave it at that. You'll become known as the “manual-writing guy”, which isn't the worst thing, but it's not exactly a title that inspires awe.
 
@@ -61,14 +67,14 @@ Unlike other teams, technical writing teams – if you can even call them "teams
 
 In fact, a small documentation team makes perfect business sense. The general idea is that a good, well-designed product should be intuitive enough that it doesn't need extensive instructions. It speaks for itself. This philosophy leads many companies to reduce their focus on documentation or, at best, keep it to a bare minimum.
 
-For many organizations, this means **there's often no “doc team” at all.** It's just you, working alone. You'll be the one writing, editing, and maintaining all the technical content. This solo journey can be particularly challenging if you:
+For many organisations, this means **there's often no “doc team” at all.** It's just you, working alone. You'll be the one writing, editing, and maintaining all the technical content. This solo journey can be particularly challenging if you:
 
 - Thrive on team dynamics and daily collaboration
 - Need regular peer feedback on your work
 - Enjoy the energy of working in larger groups
 - Want a clear career progression path within a team structure
 
-However, being alone doesn't mean you're unsupported. You can still collaborate with other members from other teams to gather information, review content, and ensure accuracy. Developers, product managers, and testers will still be your go-to sources for insights, feedback, and clarification. But in the end, you'll likely find yourself responsible for organizing and producing the final content.
+However, being alone doesn't mean you're unsupported. You can still collaborate with other members from other teams to gather information, review content, and ensure accuracy. Developers, product managers, and testers will still be your go-to sources for insights, feedback, and clarification. But in the end, you'll likely find yourself responsible for organising and producing the final content.
 
 ## The AI writing wave
 
@@ -114,7 +120,7 @@ If you're someone who loves ticking things off as “done” and moving on, the 
 
 Unlike creative or marketing content, technical writing is often dry, repetitive, and boring. This is because technical language follows strict rules and has a very specific tone. The goal is never to entertain but to inform and instruct in the clearest, most straightforward way possible.
 
-You'll need to embrace a set of precisely defined rules and adhere to them religiously. Your writing vocabulary will shrink to a carefully curated set of clear, unambiguous terms. Words like "install," "configure," "validate," and "execute" will become your constant companions.
+You'll need to embrace a set of precisely defined rules and adhere to them religiously. Your writing vocabulary will shrink to a carefully curated set of clear, unambiguous terms. Words like "install", "configure", "validate", and "execute" will become your constant companions.
 
 Over time, your relationship with language transforms. Grammar, clarity, and precise word choice aren't just goals – they become obsessions. The grammatical perfectionism seeps into your DNA until you find yourself:
 
@@ -131,7 +137,7 @@ This obsession often leads to nitpicking over the smallest details. Over time, i
 - Get bored with repetitive language patterns
 - Find joy in clever wordplay and varied expression
 
-Think about it: Are you ready to trade linguistic creativity for technical precision? Can you find satisfaction in writing that prioritizes clarity over style? Are you prepared to follow rigid language and grammar rules day after day?
+Think about it: Are you ready to trade linguistic creativity for technical precision? Can you find satisfaction in writing that prioritises clarity over style? Are you prepared to follow rigid language and grammar rules day after day?
 
 ## The "write-it-all" expectation
 
