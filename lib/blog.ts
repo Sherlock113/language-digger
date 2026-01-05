@@ -47,7 +47,7 @@ export function getBlogPosts(): BlogPost[] {
           title: data.title || "Untitled",
           date: data.date || new Date().toISOString(),
           description: data.description || "",
-          content: marked(content),
+          content: marked.parse(content) as string,
           readingTime: `${readingTime} min read`,
         } as BlogPost
       })
@@ -82,7 +82,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
       title: data.title || "Untitled",
       date: data.date || new Date().toISOString(),
       description: data.description || "",
-      content: marked(content),
+      content: marked.parse(content) as string,
       readingTime: `${readingTime} min read`,
     }
   } catch (error) {
