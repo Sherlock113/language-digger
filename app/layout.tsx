@@ -5,7 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Navigation } from "@/components/navigation";
-import { AnalyticsProvider } from "./analytics-provider";
+import AnalyticsProvider from "./analytics-provider";
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -25,32 +25,32 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">
-        <AnalyticsProvider>
-          <Navigation />
-          <main className="min-h-screen">{children}</main>
-          <Analytics />
-        </AnalyticsProvider>
+    <body className="font-sans antialiased">
+      <Navigation />
+      <main className="min-h-screen">{children}</main>
+      <Analytics />
 
-        {process.env.NEXT_PUBLIC_GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga-init" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-                  page_path: window.location.pathname,
-                });
-              `}
-            </Script>
-          </>
-        )}
-      </body>
+      <AnalyticsProvider />
+
+      {process.env.NEXT_PUBLIC_GA_ID && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                page_path: window.location.pathname,
+              });
+            `}
+          </Script>
+        </>
+      )}
+    </body>
     </html>
   );
 }

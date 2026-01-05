@@ -1,17 +1,15 @@
 "use client";
 
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import * as ga from "@/lib/ga";
 
-export function AnalyticsProvider({ children }: { children: React.ReactNode }) {
+export default function AnalyticsProvider() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
-    const url = pathname + (searchParams.toString() ? `?${searchParams}` : "");
-    ga.pageview(url);
-  }, [pathname, searchParams]);
+    ga.pageview(pathname);
+  }, [pathname]);
 
-  return <>{children}</>;
+  return null;
 }
