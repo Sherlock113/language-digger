@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Github, Linkedin, Mail, Twitter, BookOpen, FileText } from "lucide-react"
+import { Github, Linkedin, Mail, Twitter, BookOpen, FileText, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { getBlogPosts } from "@/lib/blog"
@@ -17,6 +17,23 @@ export default function Home() {
     "Python",
     "LLM Inference",
     "Kubernetes",
+  ]
+
+  const projects = [
+    {
+      title: "LLM Inference Handbook",
+      description:
+        "An open, practical guide covering everything you need to know about LLM inference — from core concepts and performance metrics to optimization techniques and real-world deployment.",
+      href: "https://www.bentoml.com/llm/",
+      tags: ["LLM Inference", "Open Source", "Technical Writing"],
+    },
+    {
+      title: "Glycohero",
+      description:
+        "A 2D platformer that turns nutrition science into muscle memory. Grab quality carbs, dodge the danger foods, exercise to bring high readings down, and finish each level inside the healthy range.",
+      href: "https://bloodglucosehero.com/",
+      tags: ["Product", "Game", "Health", "Side Project"],
+    },
   ]
 
   const favoriteBooks = [
@@ -166,6 +183,43 @@ export default function Home() {
               </p>
             </Card>
           )}
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="mb-20">
+        <h2 className="text-3xl font-bold mb-8">Projects</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          {projects.map((project) => (
+            <Card key={project.title} className="p-6 hover:shadow-lg transition-shadow group">
+              <a
+                href={project.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col h-full"
+              >
+                <div className="flex items-start justify-between gap-3 mb-2">
+                  <h3 className="text-xl font-semibold group-hover:text-secondary transition-colors">
+                    {project.title}
+                  </h3>
+                  <ExternalLink className="w-4 h-4 text-muted-foreground flex-shrink-0 mt-1.5 group-hover:text-secondary transition-colors" />
+                </div>
+                <p className="text-muted-foreground leading-relaxed mb-4 flex-1">
+                  {project.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {project.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2.5 py-1 bg-secondary/10 border border-border rounded-full text-xs font-medium"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </a>
+            </Card>
+          ))}
         </div>
       </section>
 
