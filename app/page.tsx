@@ -34,6 +34,13 @@ export default function Home() {
       href: "https://bloodglucosehero.com/",
       tags: ["Product", "Game", "Health", "Side Project"],
     },
+    {
+      title: "OpenLLMStack",
+      description:
+        "A curated hub for tracking the open-source LLM ecosystem — the latest open-source models, inference engines and optimizations, agentic frameworks, and the research powering it all.",
+      href: "https://openllmstack.com/",
+      tags: ["LLM", "Open Source", "AI Infrastructure"],
+    },
   ]
 
   const favoriteBooks = [
